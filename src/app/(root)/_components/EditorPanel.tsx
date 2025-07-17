@@ -8,7 +8,7 @@ import Image from "next/image";
 import { RotateCcwIcon, ShareIcon, TypeIcon } from "lucide-react";
 import { motion } from "framer-motion";
 import { useClerk } from "@clerk/nextjs";
-import { EditorPanelSkeleton, EditorViewSkeleton } from "./EditorPanelSkeleton";
+import { EditorPanelSkeleton } from "./EditorPanelSkeleton";
 import ShareSnippetDialog from "./ShareSnippetDialog";
 
 function EditorPanel() {
